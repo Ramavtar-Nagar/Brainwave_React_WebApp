@@ -1,4 +1,5 @@
 import ButtonGradient from './assets/svg/ButtonGradient'
+import Benefits from './components/Benefits'
 import Button from './components/Button'
 import Header from './components/Header'
 
