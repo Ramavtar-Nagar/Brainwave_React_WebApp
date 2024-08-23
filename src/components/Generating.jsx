@@ -16,4 +16,4 @@ const Generating = ({ className }) => {
   );
 };
 
-export default Generating
+export default Generating;
