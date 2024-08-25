@@ -14,8 +14,8 @@ const CompanyLogos = ({ className  }) => {
                 >
                     <img 
                     src={logo}
-                    height={134}
-                    width={134}
+                    height={46}
+                    width={46}
                     alt={logo}
                     />
                 </li>
