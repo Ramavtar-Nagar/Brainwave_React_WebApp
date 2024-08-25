@@ -34,6 +34,7 @@ import {
   telegram,
   twitter,
   yourlogo,
+  // yourlogo2
 } from "../assets";
 
 export const navigation = [
