@@ -80,11 +80,11 @@ const Services = () => {
                 <h4 className="h4 mb-4">Video generation</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  engine. What will you create ?
                 </p>
 
                 <ul className="flex items-center justify-between">
-                  {brainwaveServices.map((item, index) => (
+                  {brainwaveServicesIcons.map((item, index) => (
                     <li
                     key={index}
                     className={`rounded-2xl flex items-center justify-center ${
@@ -107,15 +107,26 @@ const Services = () => {
                 </ul>
               </div>
 
-              
+              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                <img 
+                src={service3}
+                className="w-full h-full object-cover"
+                width={520}
+                height={400}
+                alt="Scary robo"
+                />
+
+                <VideoChatMessage />
+                <VideoBar />
+              </div>
             </div>
           </div>
 
-
+          <Gradient />
         </div>
       </div>
     </Section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
